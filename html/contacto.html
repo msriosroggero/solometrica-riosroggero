@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Curso Coder</title>
+
+    <!--Linkeo al Css -->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Google fonts: le elgí la Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header class="encabezado">
+    <h1>SOLométrica</h1>
+    <img class = "logo" src="../assets/logo-web.png" alt="">
+
+    <nav class= "nav-class">
+        <li><a href="../index.html">Inicio</a></li> 
+        <li><a href="../html/acerca.html">Acerca de</a></li>
+        <li><a href="../html/material.html">Material</a></li>
+        <li><a href="../html/blog.html">Blog</a></li>
+        <li><a href="">Contacto</a></li>
+    </nav>
+</header>
+
+    <div class = "titulo-secundario">
+        <h1>
+            Contacto 
+        </h1>
+    </div>
+
+<p class = "form-title">
+    Para consultar información adicional o solicitar servicios de consultoria, comunicate rellenando la siguiente información:
+</p>
+
+<section class = "contenedor-formulario">
+    <form action="form.php" method="POST">
+        <p>Nombre y Apellido</p>
+        <input type="text" name="nombre" id="campo_nombre">
+        <p>Email</p>
+        <input type="email" name="email" id="campo_email">
+        <p>Comentarios</p>
+        <textarea name="comentarios" id="campo_comentarios", cols="30", rows="10">
+
+        </textarea>
+
+        <p></p>
+        <div class = "form-button">
+        <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</section>
+
+
+<footer>
+    <div>
+        <img class = "footer-logo" src="../assets/logo-web.png" alt="">
+    
+    </div>
+</footer>
+
+</body>
+</html>
