@@ -21,7 +21,7 @@ font-family*/
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #ffdd4c;
+    background-color: #d4c098;
     height: 115px;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ h1{
 
 .nav-class li a {
     text-decoration: none; 
-    color: #763c28;
+    color: #5f3711;
 }
 
 
@@ -84,7 +84,7 @@ h1{
     /* height: 80px; */
     width: 100%;
     font-size: 20px;
-    background-color: #f1b252;
+    background-color: #e2d5c1;
     display: flex;
 }
 /*Seteo el contenedor de novedades*/
@@ -92,7 +92,7 @@ h1{
     display: flex;
     flex-flow: wrap;
     justify-content:space-around;
-    background-color: rgb(168, 162, 162);
+    background-color: #f6f6e2;
     /* width: 100%; */
 
 }
@@ -108,7 +108,7 @@ h1{
     line-height: 1.5;
     border: 0.5px solid black; 
     padding: 20px;
-    width: 300; 
+    width: 350px; 
 }
 
 .news-img{
