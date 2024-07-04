@@ -34,25 +34,28 @@ h1{
 
 
 
-.nav-class{
-    display: flex;
-    list-style: none;
+.navbar-background{
+    /* display: flex;
+    flex-flow: wrap;
+    list-style: none; */
     /* margin: 10px; */
-    margin-left: 600px;
+    /* margin-left: 600px; */
     /* justify-content: flex-end; */
-    padding: 0; 
-    font-size: 20px;
+    /* padding: 0; 
+    font-size: 20px; */
+    background-color: #d4c098;
+    width: 100%;
 } 
 
-.nav-class ul {
+.navbar-collapse ul {
     display: flex;
     /* justify-content: left; */
 } 
-.nav-class li {
+.navbar-collapse li {
     margin-right: 10px; 
 }
 
-.nav-class li a {
+.navbar-collapse li a {
     text-decoration: none; 
     color: #5f3711;
 }
@@ -106,7 +109,7 @@ h1{
 .news{
     display: inline-block;
     line-height: 1.5;
-    border: 0.5px solid black; 
+    border: 2px solid #d4c098; 
     padding: 20px;
     width: 350px; 
 }
@@ -131,7 +134,7 @@ h1{
     width: 100%;
     line-height: 2; 
     margin-top: 50px;
-    border: 1px solid #763c28;
+    /* border: 1px solid #763c28; */
     border-radius: 1px;
 }
 
@@ -142,13 +145,14 @@ h1{
 /*Seteo el formulario de contacto para sección "contacto"*/
 
 .contenedor-formulario{
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    display: flex;
     width: 300px;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 0px;
     background-color: #fafafa;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 
 
@@ -168,5 +172,15 @@ h1{
 /*Seteo el footer*/
 
 footer{
-    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: flex-end;
 }
