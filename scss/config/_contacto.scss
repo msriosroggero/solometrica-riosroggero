@@ -1,14 +1,11 @@
 /*Seteo el formulario de contacto para sección "contacto"*/
 
 .contenedor-formulario{
-    /* justify-content: space-around; */
     display: flex;
-    /* width: 300px; */
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 0px;
     background-color: $Blanco;
-    /* margin-left: 500px; */
 }
 
 
@@ -22,5 +19,4 @@
 .form-button{
     text-align: center; 
     font-size: 25px;
-    /* background-color: #232382; */
 }

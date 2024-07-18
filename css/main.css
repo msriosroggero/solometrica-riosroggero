@@ -26,9 +26,6 @@ font-family*/
   width: 100%;
 }
 
-/* h1{
-    margin-left: 20px;
-} */
 .navbar-background {
   background-color: #d4c098;
   width: 100%;
@@ -63,7 +60,6 @@ font-family*/
 .titulo-secundario {
   text-align: center;
   justify-content: space-around;
-  /* height: 80px; */
   width: 100%;
   font-size: 20px;
   background-color: #e2d5c1;
@@ -113,7 +109,6 @@ font-family*/
   line-height: 2;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* border: 1px solid #763c28; */
   border-radius: 1px;
 }
 
@@ -127,14 +122,11 @@ font-family*/
 
 /*Seteo el formulario de contacto para sección "contacto"*/
 .contenedor-formulario {
-  /* justify-content: space-around; */
   display: flex;
-  /* width: 300px; */
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 0px;
   background-color: #fafafa;
-  /* margin-left: 500px; */
 }
 
 .form-title {
@@ -147,7 +139,6 @@ font-family*/
 .form-button {
   text-align: center;
   font-size: 25px;
-  /* background-color: #232382; */
 }
 
 /*Seteo el footer*/
