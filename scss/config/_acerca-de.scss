@@ -1,0 +1,25 @@
+/*Seteo informacion de seccion "acerca de"*/
+.contenedor-acerca{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+}
+
+.descripcion{
+    @include height-width(300px,100%);
+    text-align: center;
+    justify-content: space-around;
+    line-height: 2; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid #763c28; */
+    border-radius: 1px;
+}
+
+.descripcion p {
+    text-align: justify;
+}
+
+.foto{
+    margin-top: 50px;    
+}

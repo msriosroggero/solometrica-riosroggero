@@ -1,0 +1,43 @@
+/*Seteo La imágen de portada*/
+
+.portada{
+    @include height-width(250px,100%);
+    display: flex;
+}
+
+.titulo-secundario{
+    text-align: center;
+    justify-content: space-around;
+    /* height: 80px; */
+    width: 100%;
+    font-size: 20px;
+    background-color: $Naranja;
+    display: flex;
+}
+/*Seteo el contenedor de novedades*/
+.contenedor-news{
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-around;
+    background-color: $Amarillo-claro;
+    /* width: 100%; */
+
+}
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 3;
+}
+
+.news{
+    display: inline-block;
+    line-height: 1.5;
+    border: 2px solid $Amarillo; 
+    padding: 20px;
+    width: 350px; 
+}
+
+.news-img{
+    @include height-width(300px,100%)
+}

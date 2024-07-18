@@ -1,0 +1,15 @@
+/*RESET
+
+es el reseteo de la web. Con el asteriquito
+
+padding-margin
+font-size
+font-family*/
+
+/*Seteo la fuente*/
+
+*{
+    font-family: $Montserrat, 
+    sans-serif;
+    @include margin-padding(0,0);
+}

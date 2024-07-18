@@ -60,12 +60,12 @@ font-family*/
     height: 70px; /* Altura de mi logo */ 
 }
 
-.footer-logo{
+/* .footer-logo{
     text-align: center;
     height: 45px;
     margin: 0 auto;
     display: block;
-}
+} */
 
 
 /*Seteo La imágen de portada*/
@@ -180,7 +180,7 @@ footer{
     
 }
 
-.footer-logo-container{
+/* .footer-logo-container{
     display: flex;
     justify-content: flex-end;
-}
+} */

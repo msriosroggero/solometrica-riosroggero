@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*RESET
+
+es el reseteo de la web. Con el asteriquito
+
+padding-margin
+font-size
+font-family*/
+/*Seteo la fuente*/
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Seteo el encabezado con titulo, logo y nav bar*/
+.encabezado {
+  position: sticky;
+  top: 0;
+  background-color: #d4c098;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 115px;
+  width: 100%;
+}
+
+/* h1{
+    margin-left: 20px;
+} */
+.navbar-background {
+  background-color: #d4c098;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #5f3711;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* con el hover seteo para cambiar el color al pasar el cursor sobre los elementos de la nav */
+.navbar-collapse li a:hover {
+  color: #fafafa;
+}
+
+.logo {
+  height: 70px; /* Altura de mi logo */
+}
+
+/*Seteo La imágen de portada*/
+.portada {
+  height: 250px;
+  width: 100%;
+  display: flex;
+}
+
+.titulo-secundario {
+  text-align: center;
+  justify-content: space-around;
+  /* height: 80px; */
+  width: 100%;
+  font-size: 20px;
+  background-color: #e2d5c1;
+  display: flex;
+}
+
+/*Seteo el contenedor de novedades*/
+.contenedor-news {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  background-color: #f6f6e2;
+  /* width: 100%; */
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 3;
+}
+
+.news {
+  display: inline-block;
+  line-height: 1.5;
+  border: 2px solid #d4c098;
+  padding: 20px;
+  width: 350px;
+}
+
+.news-img {
+  height: 300px;
+  width: 100%;
+}
+
+/*Seteo informacion de seccion "acerca de"*/
+.contenedor-acerca {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.descripcion {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* border: 1px solid #763c28; */
+  border-radius: 1px;
+}
+
+.descripcion p {
+  text-align: justify;
+}
+
+.foto {
+  margin-top: 50px;
+}
+
+/*Seteo el formulario de contacto para sección "contacto"*/
+.contenedor-formulario {
+  /* justify-content: space-around; */
+  display: flex;
+  /* width: 300px; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  background-color: #fafafa;
+  /* margin-left: 500px; */
+}
+
+.form-title {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+.form-button {
+  text-align: center;
+  font-size: 25px;
+  /* background-color: #232382; */
+}
+
+/*Seteo el footer*/
+footer {
+  display: flex;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */

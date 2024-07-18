@@ -1,0 +1,42 @@
+/*Seteo el encabezado con titulo, logo y nav bar*/
+.encabezado{
+    position: sticky;
+    top: 0;
+    background-color: $Amarillo;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    @include height-width(115px,100%);
+}
+
+/* h1{
+    margin-left: 20px;
+} */
+
+.navbar-background{
+    background-color: $Amarillo;
+    width: 100%;
+} 
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: $Marron;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+/* con el hover seteo para cambiar el color al pasar el cursor sobre los elementos de la nav */
+
+.navbar-collapse li a:hover{
+    color: $Blanco;
+}
+
+
+.logo{
+    height: 70px; /* Altura de mi logo */ 
+}
