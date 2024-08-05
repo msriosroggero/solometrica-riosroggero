@@ -6,19 +6,23 @@
 }
 
 .descripcion{
-    @include height-width(300px,100%);
+    @include height-width(700px,100%);
     text-align: center;
     justify-content: space-around;
     line-height: 2; 
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 1px;
-}
-
-.descripcion p {
+    border-radius: 10px;
     text-align: justify;
 }
 
-.foto{
-    margin-top: 50px;    
+.text-justify {
+    text-align: justify;
+}
+
+.foto {
+    margin-top: 0px;
+    width: 100%;
+    max-width: 350px; 
+    margin: 0 auto;
 }
