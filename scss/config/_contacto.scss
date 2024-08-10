@@ -3,9 +3,39 @@
 .contenedor-formulario{
     display: flex;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid $Marron; 
     border-radius: 0px;
     background-color: $Blanco;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: $Marron;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid $Amarillo;
+    padding: 10px;
+    // background-color: $Amarillo-claro;
+    // // color: $Marron;
+}
+
+.btn-primary {
+    background-color: $Marron;
+    border: none;
+    color: $Blanco;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: $Amarillo;
+    color: $Blanco; 
 }
 
 
@@ -19,4 +49,5 @@
 .form-button{
     text-align: center; 
     font-size: 25px;
+    color: $Marron;
 }

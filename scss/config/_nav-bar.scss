@@ -1,6 +1,7 @@
 /*Seteo el encabezado con titulo, logo y nav bar*/
 .encabezado{
     position: sticky;
+    z-index: 1000;
     top: 0;
     background-color: $Amarillo;
     display: flex;

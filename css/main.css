@@ -16,6 +16,7 @@ font-family*/
 /*Seteo el encabezado con titulo, logo y nav bar*/
 .encabezado {
   position: sticky;
+  z-index: 1000;
   top: 0;
   background-color: #d4c098;
   display: flex;
@@ -145,6 +146,34 @@ font-family*/
 .accordion-container {
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: #f6f6e2;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  background-color: #e2d5c1;
+  color: #5f3711;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #d4c098;
+  color: #5f3711;
 }
 
 .table {
@@ -184,9 +213,37 @@ font-family*/
 .contenedor-formulario {
   display: flex;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #5f3711;
   border-radius: 0px;
   background-color: #fafafa;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #5f3711;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #d4c098;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #5f3711;
+  border: none;
+  color: #fafafa;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #d4c098;
+  color: #fafafa;
 }
 
 .form-title {
@@ -199,6 +256,7 @@ font-family*/
 .form-button {
   text-align: center;
   font-size: 25px;
+  color: #5f3711;
 }
 
 /*Seteo el footer*/

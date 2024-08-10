@@ -1,6 +1,6 @@
 .video-container {
     position: relative;
-    padding-bottom: 40%; // 16:9 ratio
+    padding-bottom: 40%;
     height: 0;
     overflow: hidden;
     max-width: 80%;
@@ -20,5 +20,33 @@
 .accordion-container {
     max-width: 1000px; 
     margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #f6f6e2;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.download-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.download-button {
+    background-color: $Naranja;
+    color: $Marron;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: $Amarillo;
+    color: $Marron;
+}
